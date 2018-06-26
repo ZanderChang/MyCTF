@@ -14,3 +14,8 @@
 
 ## [pwndbg](https://github.com/pwndbg/pwndbg)
 pwndbg提供heap命令查看堆块的分配情况，bins命令快速查看bins的状态
+
+## 参考
+http://www.freebuf.com/articles/rookie/155971.html
+
+https://github.com/w181496/CTF/blob/master/pwnable.tw/hacknote/exp.py
