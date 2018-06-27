@@ -15,3 +15,11 @@
 2）剩余的部分成为新的top chunk。
 
 否则，就需要扩展heap或分配新的heap：在main arena中通过sbrk扩展heap，而在thread arena中通过mmap分配新的heap。
+
+### 利用
+交换两块可写地址的值：Top chunk和got@read
+
+## 参考
+https://blog.csdn.net/niexinming/article/details/78759363
+
+http://www.freebuf.com/articles/rookie/155971.html
